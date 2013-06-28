@@ -1,3 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  /* rules go here */
+  min-width: 980px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  height: 29px;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+nav li {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #bbb;
+  width: 89px;
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  background-image: url(googlelogo.png);
+  height:95px;
+  width:275px;
+  background-size: 275px, 95px;
+}
+
+.search {
+  width: 572px;
+  height: 29px;
+  line-height: 27px;
+  display: block;
+  float: left;
+}
+
+input {
+  width: 572px;
 }
