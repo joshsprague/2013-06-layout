@@ -16,6 +16,8 @@ nav {
   padding: 0;
   margin: 0;
   width: 100%;
+  position: relative;
+  display: block;
 }
 
 ul {
@@ -33,13 +35,34 @@ nav li {
   display: inline-block;
 }
 
-.logo {
-  background-image: url(googlelogo.png);
-  height:95px;
-  width:275px;
-  background-size: 275px, 95px;
+.content {
+    display:block;
+    position: absolute;
+    bottom: 0;
+      top:50%;
+     left:50%;
+
+    margin: auto;
 }
 
+.logo-block {
+  display: block;
+  position: relative;
+  min-width: 980px;
+}
+
+.logo img {
+  height:95px;
+  width:275px;
+  padding-top: 112px;
+  background-size: 275px, 95px;
+
+}
+
+.search-block {
+  display:block;
+  position:absolute;
+}
 .search {
   width: 572px;
   height: 29px;
@@ -47,6 +70,8 @@ nav li {
   display: block;
   float: left;
 }
+
+
 
 input {
   width: 572px;
