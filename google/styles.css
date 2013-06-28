@@ -51,6 +51,10 @@ nav li {
   min-width: 980px;
 }
 
+.logo {
+  margin-left:40%;
+}
+
 .logo img {
   height:95px;
   width:275px;
@@ -62,7 +66,9 @@ nav li {
 .search-block {
   display:block;
   position:absolute;
+  margin-left: 29%;
 }
+
 .search {
   width: 572px;
   height: 29px;
@@ -71,8 +77,10 @@ nav li {
   float: left;
 }
 
-
-
 input {
   width: 572px;
+}
+
+.button-block {
+  margin-left: 35%;
 }
