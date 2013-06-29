@@ -1,3 +1,123 @@
+
+
 body{
   /* rules go here */
+  padding: 0;
+  margin: 0;
+  font-family: ProximaNova, 'Helvetica Neue', helvetica, arial, sans-serif;
 }
+
+nav {
+  padding:20px 30px 10px;
+  width: 1000px;
+  height: 103;
+  display: block;
+}
+
+#logo {
+  float:left;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+
+ul li {
+  float: right;
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.1em;
+  display: block;
+
+}
+
+.big-block {
+  position:relative;
+  width: 1000px;
+  height: 901px;
+  display: block;
+}
+
+.big-text {
+  font-size: 21px;
+  padding: 40px 0 60px;
+  background: none;
+  width: 800;
+  margin: 0 auto;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  position:relative;
+  clear: both;
+}
+
+.big-text h1 {
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1em;
+  display: block;
+  font-weight: bold;
+}
+
+.joy-block {
+  display: block;
+  width: 1000px;
+  height: 561px;
+  background: url(drawings.png);
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+aside {
+  width: 170px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 50px;
+  display: block;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #000;
+}
+
+figure {
+  background: url(joy.png);
+  margin: 70px 0 0 175px;
+  width: 393px;
+  height: 495px;
+  float: left;
+  position: relative;
+  left: 10px;
+  padding: 0px;
+  background-size: 375px 465px;
+  background-repeat: no-repeat;
+}
+
+.signup {
+  float: left;
+  width: 300px;
+  padding: 65px 0 0;
+  margin-left: 10px;
+  background: transparent;
+  position: relative;
+  display: block;
+  border-image-slice: 100%;
+  left: 26px;
+
+}
+
+.signup form {
+  width: 200px;
+}
+.signup label {
+  display: block;
+position: relative;
+text-align: left;
+}
+.signup input {
+  width: 312px;
+  height: 37px;
+}
+
